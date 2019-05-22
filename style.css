@@ -1,0 +1,54 @@
+
+
+button{
+  display: block;
+  color:#fff;
+  background: tomato;
+  margin: 10px auto;
+  padding: 6px 10px;
+  border: none;
+
+}
+
+.contact-popup{
+background: rgba(0, 0, 0, 0.4);
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+display: none;
+}
+
+.popup{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 10% auto;
+  padding: 20px;
+  background: #fff;
+  position: relative;
+}
+.popup-content p{
+  color: tomato;
+}
+.popup-content a{
+  text-decoration: none;
+  background: tomato;
+  padding: 10px ;
+  margin: 5px ;
+  display: inline-block;
+  color: #fff;
+}
+
+.popup-close{
+  position: absolute;
+  background: tomato;
+  padding: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+
+
+}
+
